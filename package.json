@@ -1,0 +1,33 @@
+{
+  "name": "secure-jwt-rotation",
+  "version": "1.0.0",
+  "description": "JWT manager with key rotation and revocation via Redis/Memcached or in-memory fallback",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yogesh-d-be/secure-jwt-rotation.git"
+  },
+  "keywords": [
+    "jwt",
+    "authentication",
+    "key-rotation",
+    "token-revocation",
+    "redis",
+    "memcached",
+    "nodejs"
+  ],
+  "author": "Yogesh D <yogesh.d.be@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yogesh-d-be/secure-jwt-rotation/issues"
+  },
+  "homepage": "https://github.com/yogesh-d-be/secure-jwt-rotation#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^11.1.0"
+  }
+}
